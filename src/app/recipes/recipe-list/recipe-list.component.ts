@@ -6,7 +6,6 @@ import {Recipe} from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-
   @Output() recipeWasSelected= new EventEmitter<Recipe>();
     recipes: Recipe[] = [
     new Recipe('Pasta','Recipe for pasta','https://pinchofyum.com/wp-content/uploads/Vegan-Vodka-Pasta-Square.jpg')
